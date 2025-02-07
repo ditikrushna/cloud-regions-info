@@ -28,8 +28,6 @@ A Python package that provides detailed information about cloud regions across d
   region_info.raw        # "eu-north-1"
   ```
 
-- 🛡️ **Type Safety**: Built with Pydantic models for reliable data validation and IDE support
-
 ## Installation
 
 Install using pip:
