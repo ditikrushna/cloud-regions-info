@@ -15,6 +15,7 @@ from .providers.oci import OCIProvider
 from .providers.digitalocean import DigitalOceanProvider
 from .providers.ibm import IBMProvider
 from .providers.alibaba import AlibabaProvider
+from .providers.vultr import VultrProvider
 
 PROVIDER_MAP = {
     "aws": AWSProvider,
@@ -23,7 +24,8 @@ PROVIDER_MAP = {
     "oci": OCIProvider,
     "digitalocean": DigitalOceanProvider,
     "ibm": IBMProvider,
-    "alibaba": AlibabaProvider
+    "alibaba": AlibabaProvider,
+    "vultr": VultrProvider
 }
 
 def get_provider(provider_name: str):
