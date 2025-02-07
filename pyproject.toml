@@ -7,7 +7,7 @@ license = "MIT"
 include = ["cloud_regions_info/mappings/*.json"]
 
 [tool.poetry.dependencies]
-python = ">=3.10,<3.12"
+python = ">=3.10,<3.13"
 pydantic = "1.10.5"
 
 [tool.poetry.dev-dependencies]
