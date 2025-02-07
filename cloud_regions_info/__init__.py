@@ -11,11 +11,13 @@ from .core import get_region_info
 from .providers.aws import AWSProvider
 from .providers.azure import AzureProvider
 from .providers.gcp import GCPProvider
+from .providers.oci import OCIProvider
 
 PROVIDER_MAP = {
     "aws": AWSProvider,
     "azure": AzureProvider,
-    "gcp": GCPProvider
+    "gcp": GCPProvider,
+    "oci": OCIProvider
 }
 
 def get_provider(provider_name: str):

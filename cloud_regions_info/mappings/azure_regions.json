@@ -414,5 +414,69 @@
         "latitude": -6.2088,
         "longitude": 106.8456,
         "raw": "indonesiacentral"
+    },
+    "australiacentral": {
+        "location": "Australia Central",
+        "country": "Australia",
+        "flag": "🇦🇺",
+        "latitude": -35.3075,
+        "longitude": 149.1244,
+        "raw": "australiacentral"
+    },
+    "australiacentral2": {
+        "location": "Australia Central 2",
+        "country": "Australia",
+        "flag": "🇦🇺",
+        "latitude": -35.3075,
+        "longitude": 149.1244,
+        "raw": "australiacentral2"
+    },
+    "chinaeast2": {
+        "location": "China East 2",
+        "country": "China",
+        "flag": "🇨🇳",
+        "latitude": 31.2304,
+        "longitude": 121.4737,
+        "raw": "chinaeast2"
+    },
+    "chinanorth2": {
+        "location": "China North 2",
+        "country": "China",
+        "flag": "🇨🇳",
+        "latitude": 39.9075,
+        "longitude": 116.3972,
+        "raw": "chinanorth2"
+    },
+    "chinanorth3": {
+        "location": "China North 3",
+        "country": "China",
+        "flag": "🇨🇳",
+        "latitude": 40.0495,
+        "longitude": 116.2012,
+        "raw": "chinanorth3"
+    },
+    "southeastasiastandard": {
+        "location": "Southeast Asia Standard",
+        "country": "Singapore",
+        "flag": "🇸🇬",
+        "latitude": 1.283,
+        "longitude": 103.833,
+        "raw": "southeastasiastandard"
+    },
+    "jioindiawest": {
+        "location": "Jio India West",
+        "country": "India",
+        "flag": "🇮🇳",
+        "latitude": 19.088,
+        "longitude": 72.868,
+        "raw": "jioindiawest"
+    },
+    "jioindiacentral": {
+        "location": "Jio India Central",
+        "country": "India",
+        "flag": "🇮🇳",
+        "latitude": 18.5822,
+        "longitude": 73.9197,
+        "raw": "jioindiacentral"
     }
 }

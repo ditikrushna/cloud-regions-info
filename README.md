@@ -119,8 +119,8 @@ If you encounter any issues or have questions, please:
 | Provider | Status | Implementation |
 |----------|--------|----------------|
 | AWS      | ✅     | Complete       |
-| Azure    | 🚧     | In Progress    |
-| GCP      | 🚧     | Planned        |
+| Azure    | ✅     | Complete       |
+| GCP      | ✅     | Complete       |
 | Oracle Cloud | 📅  | Planned       |
 | DigitalOcean | 📅  | Planned       |
 | IBM Cloud    | 📅  | Planned       |
