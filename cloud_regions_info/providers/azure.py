@@ -7,7 +7,10 @@ class AzureProvider(BaseProvider):
     """Provider implementation for Microsoft Azure."""
     
     def __init__(self):
-        """Initialize the Azure provider with region data."""
+        """
+        Initialize Azure provider with region data.
+        Loads region information from the azure_regions.json mapping file.
+        """
         base_path = os.path.dirname(os.path.abspath(__file__))
         data_path = os.path.join(base_path, "..", "mappings", "azure_regions.json")
         with open(data_path, "r", encoding="utf-8") as f:
@@ -15,13 +18,30 @@ class AzureProvider(BaseProvider):
 
     def get_region_info(self, region: str) -> dict:
         """
-        Return region metadata in the form of a dictionary derived from a RegionInfo model.
-        
+        Get information about an Azure region.
+
         Args:
-            region: Azure region code (e.g., "eastus", "westeurope")
-            
+            region (str): Azure region code (e.g., 'eastus', 'westeurope')
+
         Returns:
-            Dictionary containing region information
+            dict: Region information containing:
+                - location (str): Human-readable location (e.g., "East US")
+                - country (str): Country name (e.g., "United States")
+                - flag (str, optional): Unicode flag emoji (e.g., "🇺🇸")
+                - latitude (float, optional): Geographic latitude
+                - longitude (float, optional): Geographic longitude
+                - raw (str): Original region code
+
+        Example:
+            >>> get_region_info("eastus")
+            {
+                "location": "East US",
+                "country": "United States",
+                "flag": "🇺🇸",
+                "latitude": 37.3719,
+                "longitude": -79.8164,
+                "raw": "eastus"
+            }
         """
         region_key = region.lower().replace(" ", "")
         info = self.region_data.get(region_key, {})

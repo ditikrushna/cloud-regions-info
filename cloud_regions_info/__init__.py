@@ -3,10 +3,24 @@ cloud_regions_info
 ~~~~~~~~~~~~~~~~~~
 
 A Python package for retrieving cloud region information.
-Currently supports AWS in a full-fledged manner, with placeholders for Azure & GCP.
 """
 
 __version__ = "0.1.0"
 
-# Expose a single function from core
 from .core import get_region_info
+from .providers.aws import AWSProvider
+from .providers.azure import AzureProvider
+from .providers.gcp import GCPProvider
+
+PROVIDER_MAP = {
+    "aws": AWSProvider,
+    "azure": AzureProvider,
+    "gcp": GCPProvider
+}
+
+def get_provider(provider_name: str):
+    """Get the provider class for a given provider name."""
+    key = provider_name.strip().lower()
+    if key not in PROVIDER_MAP:
+        raise ValueError(f"Provider '{provider_name}' is not supported")
+    return PROVIDER_MAP[key]()
