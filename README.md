@@ -57,33 +57,6 @@ print(region_info.latitude)    # 59.3293
 print(region_info.longitude)   # 18.0686
 print(region_info.raw)         # eu-north-1
 ```
-
-### Method Signature
-```python
-def get_region_info(provider: str, region: str) -> dict:
-    """
-    Get information about a cloud provider region.
-    
-    Args:
-        provider: Name of the cloud provider (e.g., "aws", "azure", "gcp")
-        region: Region code (e.g., "eu-north-1", "eastus")
-    
-    Returns:
-        Dictionary containing:
-        - location: Human-readable location name
-        - flag: Unicode flag emoji of the country (if available)
-        - country: Country name
-        - latitude: Approximate latitude coordinates (if available)
-        - longitude: Approximate longitude coordinates (if available)
-        - raw: The raw region code as used by the cloud provider
-    
-    Example:
-        get_region_info("aws", "eu-north-1")
-    """
-```
-
-For more examples and detailed documentation, check our [Wiki](https://github.com/ditikrushna/cloud-regions-info/wiki).
-
 ## Local Development Setup
 
 1. Clone the repository:
