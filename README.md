@@ -104,8 +104,6 @@ Contributions are welcome! Here's how you can help:
 
 The region information is sourced from:
 - AWS: Official AWS documentation and APIs
-- Azure: (Placeholder for future implementation)
-- GCP: (Placeholder for future implementation)
 
 ## License
 
