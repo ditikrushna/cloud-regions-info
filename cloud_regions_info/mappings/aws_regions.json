@@ -137,7 +137,8 @@
       "country": "United Arab Emirates",
       "flag": "🇦🇪",
       "latitude": 25.204849,
-      "longitude": 55.270783
+      "longitude": 55.270783,
+      "raw": "me-central-1"
     },
     "me-south-1": {
       "location": "Middle East (Bahrain)",
@@ -152,6 +153,86 @@
       "flag": "🇧🇷",
       "latitude": -23.550520,
       "longitude": -46.633308
+    },
+    "ap-south-2": {
+        "location": "Asia Pacific (Hyderabad)",
+        "country": "India",
+        "flag": "🇮🇳",
+        "latitude": 17.385044,
+        "longitude": 78.486671,
+        "raw": "ap-south-2"
+    },
+    "ap-southeast-3": {
+        "location": "Asia Pacific (Jakarta)",
+        "country": "Indonesia",
+        "flag": "🇮🇩",
+        "latitude": -6.2088,
+        "longitude": 106.8456,
+        "raw": "ap-southeast-3"
+    },
+    "ap-southeast-4": {
+        "location": "Asia Pacific (Melbourne)",
+        "country": "Australia",
+        "flag": "🇦🇺",
+        "latitude": -37.8136,
+        "longitude": 144.9631,
+        "raw": "ap-southeast-4"
+    },
+    "eu-south-2": {
+        "location": "Europe (Spain)",
+        "country": "Spain",
+        "flag": "🇪🇸",
+        "latitude": 40.4168,
+        "longitude": -3.7038,
+        "raw": "eu-south-2"
+    },
+    "eu-central-2": {
+        "location": "Europe (Zurich)",
+        "country": "Switzerland",
+        "flag": "🇨🇭",
+        "latitude": 47.3769,
+        "longitude": 8.5417,
+        "raw": "eu-central-2"
+    },
+    "il-central-1": {
+        "location": "Israel (Tel Aviv)",
+        "country": "Israel",
+        "flag": "🇮🇱",
+        "latitude": 32.0853,
+        "longitude": 34.7818,
+        "raw": "il-central-1"
+    },
+    "us-gov-east-1": {
+        "location": "AWS GovCloud (US-East)",
+        "country": "United States",
+        "flag": "🇺🇸",
+        "latitude": 37.0902,
+        "longitude": -95.7129,
+        "raw": "us-gov-east-1"
+    },
+    "us-gov-west-1": {
+        "location": "AWS GovCloud (US-West)",
+        "country": "United States",
+        "flag": "🇺🇸",
+        "latitude": 37.0902,
+        "longitude": -95.7129,
+        "raw": "us-gov-west-1"
+    },
+    "cn-north-1": {
+        "location": "China (Beijing)",
+        "country": "China",
+        "flag": "🇨🇳",
+        "latitude": 39.9042,
+        "longitude": 116.4074,
+        "raw": "cn-north-1"
+    },
+    "cn-northwest-1": {
+        "location": "China (Ningxia)",
+        "country": "China",
+        "flag": "🇨🇳",
+        "latitude": 37.2987,
+        "longitude": 106.1581,
+        "raw": "cn-northwest-1"
     }
   }
   
