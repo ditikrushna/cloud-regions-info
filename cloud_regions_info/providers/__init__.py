@@ -9,12 +9,14 @@ from .aws import AWSProvider
 from .azure import AzureProvider
 from .gcp import GCPProvider
 from .oci import OCIProvider
+from .digitalocean import DigitalOceanProvider
 
 PROVIDER_MAP = {
     "aws": AWSProvider,
     "azure": AzureProvider,
     "gcp": GCPProvider,
-    "oci": OCIProvider
+    "oci": OCIProvider,
+    "digitalocean": DigitalOceanProvider
 }
 
 def get_provider(provider_name: str) -> BaseProvider:
