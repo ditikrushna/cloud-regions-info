@@ -109,11 +109,6 @@ The region information is sourced from:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Acknowledgments
-
-- Thanks to all contributors who help maintain and improve this package
-- Cloud provider documentation and APIs that make this possible
-
 ## Support
 
 If you encounter any issues or have questions, please:
