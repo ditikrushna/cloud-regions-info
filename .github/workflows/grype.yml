@@ -1,0 +1,22 @@
+name: grype
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  scan-source:
+    name: scan-source
+    runs-on: ubuntu-latest
+
+    permissions:
+      security-events: write
+      actions: read
+      contents: read
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: anchore/scan-action@v6
+        with:
+          path: "."
+          fail-build: true
