@@ -121,17 +121,18 @@ If you encounter any issues or have questions, please:
 | AWS      | ✅     | Complete       |
 | Azure    | ✅     | Complete       |
 | GCP      | ✅     | Complete       |
-| Oracle Cloud | 📅  | Planned       |
-| DigitalOcean | 📅  | Planned       |
-| IBM Cloud    | 📅  | Planned       |
-| Alibaba Cloud| 📅  | Planned       |
+| Oracle Cloud | ✅  | Complete      |
+| DigitalOcean | ✅  | Complete      |
+| IBM Cloud    | ✅  | Complete      |
+| Alibaba Cloud| ✅  | Complete      |
+| Vultr        | ✅  | Complete      |
 
 ### SaaS Applications
 | Application | Status | Implementation |
 |-------------|--------|----------------|
-| Microsoft 365 | 📅   | Planned        |
-| - SharePoint  | 📅   | Planned        |
-| - OneDrive   | 📅   | Planned        |
+| Microsoft 365 | 🚧   | In Progress    |
+| - OneDrive   | ✅   | Complete       |
+| - SharePoint | 📅   | Planned        |
 | - Teams      | 📅   | Planned        |
 | Atlassian    | 📅   | Planned        |
 | - Jira       | 📅   | Planned        |
@@ -148,10 +149,10 @@ Status Legend:
 
 ## Roadmap
 
-- [ ] Complete Azure regions implementation
-- [ ] Add GCP regions support
-- [ ] Add major cloud providers (Oracle, DigitalOcean, IBM)
-- [ ] Implement Microsoft 365 services regional mapping
+- [x] Complete Azure regions implementation
+- [x] Add GCP regions support
+- [x] Add major cloud providers (Oracle, DigitalOcean, IBM)
+- [ ] Complete Microsoft 365 services regional mapping
 - [ ] Add Atlassian services regional deployment info
 - [ ] Implement region comparison functionality
 - [ ] Add service availability matrix
