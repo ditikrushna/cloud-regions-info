@@ -59,7 +59,7 @@ print(region_info.raw)         # eu-north-1
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/cloud-regions-info.git
+https://github.com/ditikrushna/cloud-regions-info.git
 cd cloud-regions-info
 ```
 
