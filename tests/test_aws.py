@@ -15,3 +15,10 @@ def test_aws_eu_north_1():
     assert data["location"] == "Europe (Stockholm)"
     assert data["flag"] == "🇸🇪"
     assert data["country"] == "Sweden"
+
+def test_aws_us_east_2():
+    provider = AWSProvider()
+    data = provider.get_region_info("us-east-2")
+    assert data["location"] == "US East (Ohio)"
+    assert data["flag"] == "🇺🇸"
+    assert data["country"] == "United States"
