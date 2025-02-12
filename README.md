@@ -147,19 +147,4 @@ Status Legend:
 - 📅 Planned
 - ❌ Not Started
 
-## Roadmap
-
-- [x] Complete Azure regions implementation
-- [x] Add GCP regions support
-- [x] Add major cloud providers (Oracle, DigitalOcean, IBM)
-- [ ] Complete Microsoft 365 services regional mapping
-- [ ] Add Atlassian services regional deployment info
-- [ ] Implement region comparison functionality
-- [ ] Add service availability matrix
-- [ ] Create detailed documentation site
-- [ ] Add region cost information
-- [ ] Implement caching mechanism
-
----
-
 Made with ❤️ by [Ditikrushna Giri](https://ditikrushna.xyz/)
