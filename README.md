@@ -4,8 +4,6 @@ A Python package that provides detailed information about cloud regions across d
 
 [![PyPI](https://img.shields.io/pypi/v/cloud-regions-info.svg)](https://pypi.org/project/cloud-regions-info/)
 [![Python Versions](https://img.shields.io/pypi/pyversions/cloud-regions-info.svg)](https://pypi.org/project/cloud-regions-info/)
-[![Downloads](https://img.shields.io/pypi/dm/cloud-regions-info.svg)](https://pypi.org/project/cloud-regions-info/)
-[![GitHub issues](https://img.shields.io/github/issues/ditikrushna/cloud-regions-info.svg)](https://github.com/ditikrushna/cloud-regions-info/issues)
 [![CI](https://github.com/ditikrushna/cloud-regions-info/actions/workflows/publish.yml/badge.svg)](https://github.com/ditikrushna/cloud-regions-info/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
