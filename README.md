@@ -100,11 +100,6 @@ Contributions are welcome! Here's how you can help:
 - Adding new cloud providers
 - Bug fixes and improvements
 
-## Data Sources
-
-The region information is sourced from:
-- AWS: Official AWS documentation and APIs
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -112,7 +107,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Support
 
 If you encounter any issues or have questions, please:
-1. Check the [Issues](https://github.com/yourusername/cloud-regions-info/issues) page
+1. Check the [Issues](https://github.com/ditikrushna/cloud-regions-info/issues) page
 2. Create a new issue if your problem isn't already listed
 
 ## Project Status
