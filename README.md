@@ -2,7 +2,7 @@
 
 A Python package that provides detailed information about cloud regions across different cloud providers.
 
-[![PyPI version](https://badge.fury.io/py/cloud-regions-info.svg)](https://badge.fury.io/py/cloud-regions-info)
+[![PyPI](https://img.shields.io/pypi/v/cloud-regions-info.svg)](https://pypi.org/project/cloud-regions-info/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Features
