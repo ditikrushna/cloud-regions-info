@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "cloud-regions-info"
 version = "v1.0.1"
-ddescription = "A Python package for retrieving detailed cloud region information across AWS, Azure, GCP, and other cloud providers."
+description = "A Python package for retrieving detailed cloud region information across AWS, Azure, GCP, and other cloud providers."
 authors = ["Ditikrushna Giri <ping@ditikrushna.xyz>"]
 license = "MIT"
 include = ["cloud_regions_info/mappings/*.json"]
