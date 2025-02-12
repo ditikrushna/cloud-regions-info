@@ -143,5 +143,3 @@ Status Legend:
 - 🚧 In Progress
 - 📅 Planned
 - ❌ Not Started
-
-Made with ❤️ by [Ditikrushna Giri](https://ditikrushna.xyz/)
