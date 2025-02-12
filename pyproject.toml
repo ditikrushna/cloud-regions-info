@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "cloud-regions-info"
-version = "0.1.0"
+version = "v1.0.0"
 description = "Python package for cloud region info"
 authors = ["Ditikrushna Giri <ping@ditikrushna.xyz>"]
 license = "MIT"
