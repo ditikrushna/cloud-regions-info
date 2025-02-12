@@ -1,4 +1,4 @@
-# Cloud Regions Information
+# Cloud Regions Info
 
 A Python package that provides detailed information about cloud regions across different cloud providers.
 
