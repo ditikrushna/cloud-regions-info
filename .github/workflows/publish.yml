@@ -1,13 +1,13 @@
 name: Publish Package
 
 on:
-  push:
-    tags:
-      - "v*.*.*"
+  release:
+    types: [published]
 
 jobs:
   build-and-publish:
     runs-on: ubuntu-latest
+
     steps:
       - name: Check out repository
         uses: actions/checkout@v3
@@ -18,14 +18,10 @@ jobs:
           poetry-version: "1.4.2"
 
       - name: Install dependencies
-        run: |
-          poetry install --only main
+        run: poetry install --only main
 
       - name: Build package
-        run: |
-          poetry build
+        run: poetry build
 
       - name: Publish to PyPI
-        if: startsWith(github.ref, 'refs/tags/v')
-        run: |
-          poetry publish --username __token__ --password ${{ secrets.PYPI_API_TOKEN }}
+        run: poetry publish --username __token__ --password ${{ secrets.PYPI_API_TOKEN }}
