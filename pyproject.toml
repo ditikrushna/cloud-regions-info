@@ -1,10 +1,11 @@
 [tool.poetry]
 name = "cloud-regions-info"
 version = "v1.0.1"
-description = "Python package for cloud region info"
+ddescription = "A Python package for retrieving detailed cloud region information across AWS, Azure, GCP, and other cloud providers."
 authors = ["Ditikrushna Giri <ping@ditikrushna.xyz>"]
 license = "MIT"
 include = ["cloud_regions_info/mappings/*.json"]
+readme = "README.md"
 
 [tool.poetry.dependencies]
 python = ">=3.10,<3.13"
