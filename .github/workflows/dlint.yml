@@ -1,0 +1,2 @@
+- name: dlint check
+  uses: xen0l/dlint-check@0.10.1
