@@ -1,2 +1,29 @@
-- name: dlint check
-  uses: xen0l/dlint-check@0.10.1
+name: Dlint Check
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  dlint:
+    name: Run Dlint Check
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install dlint
+
+      - name: Run Dlint Check
+        uses: xen0l/dlint-check@0.10.1
